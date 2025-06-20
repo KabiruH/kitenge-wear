@@ -12,8 +12,9 @@ export const COLORS = {
 } as const;
 
 export const SITE_CONFIG = {
-  name: 'Kitenge Wear',
-  description: 'Beautiful African Kitenge Wear for Kids & Adults',
-  tagline: 'Authentic African Fashion, Custom Made',
-  fulfillmentDays: 3
+  name: 'Bantu Baby',
+  description: 'Beautiful African Kitenge Wear for Kids & Adults - Celebrating Heritage with Pride',
+  tagline: 'Where Heritage Meets Style',
+  fulfillmentDays: 3,
+  foundedYear: 2020
 } as const;
