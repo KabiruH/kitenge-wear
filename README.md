@@ -1,36 +1,178 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bantu Baby - African Kitenge Wear for Kids
 
-## Getting Started
+A beautiful, mobile-first e-commerce website for authentic African kitenge clothing for children and adults. Built with Next.js 13+ and TypeScript.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🎨 **Beautiful Design**
+- **Mobile-first responsive design** optimized for African markets
+- **Burnt orange & black branding** that reflects African warmth
+- **Heritage-focused messaging** throughout the site
+- **Smooth animations** and professional UI/UX
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🛍️ **E-commerce Functionality**
+- **Product gallery** with filtering (Kids/Adults)
+- **Custom order system** with measurements
+- **Standard & custom sizing** options
+- **70% upfront payment** structure
+- **3-day delivery** promise
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📏 **Advanced Measurement System**
+- **Gender-specific forms** (Boys/Girls measurements)
+- **Standard size charts** by age group
+- **Custom measurement inputs** with guidance
+- **Professional measurement tips**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📱 **Mobile Optimized**
+- **Touch-friendly interface**
+- **Fast loading** with Next.js optimization
+- **Responsive grid layouts**
+- **WhatsApp integration** for African market
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 13+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Image Optimization**: Next.js Image
+- **Deployment**: Vercel Ready
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Colors
+- **Primary**: `#CC5500` (Burnt Orange)
+- **Secondary**: `#000000` (Black)
+- **Accent**: `#FF7A00` (Light Orange)
 
-## Deploy on Vercel
+### Typography
+- **Font**: Inter (Clean, modern, readable)
+- **Headings**: Bold, large sizes for impact
+- **Body**: Readable, accessible sizing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Components
+- **Cards**: Rounded corners with shadows
+- **Buttons**: Brand colors with hover effects
+- **Forms**: Clean inputs with focus states
+- **Icons**: Lucide React for consistency
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/kabiruH/bantu-baby.git
+   cd bantu-baby
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env.local
+   ```
+   Edit `.env.local` with your configuration.
+
+4. **Add your images**
+   - Add carousel images to `public/images/hero/`
+   - Add product images to `public/images/gallery/kids/` and `public/images/gallery/adults/`
+
+5. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+6. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📸 Adding Products
+
+### Adding New Products
+1. **Add product images** to `public/images/gallery/kids/` or `public/images/gallery/adults/`
+2. **Update product data** in `src/data/products.ts`
+3. **Follow naming convention**: `product-name-1.png` for consistency
+
+## 🎯 Key Features Explained
+
+### 📱 Mobile-First Design
+- **Touch-friendly** buttons and navigation
+- **Optimized images** for faster loading on mobile data
+- **WhatsApp integration** for easy customer communication
+- **Simple, clear navigation** perfect for all age groups
+
+### 👗 Order System
+- **Product selection** from gallery with modal previews
+- **Dual sizing options**: Standard (age-based) or custom measurements
+- **Gender-specific forms** with appropriate measurement fields
+- **Order validation** prevents incomplete submissions
+- **Success confirmation** with clear next steps
+
+### 🎨 Brand Experience
+- **Heritage celebration** throughout the site
+- **Inspirational messaging** about African pride and culture
+- **Professional presentation** that builds trust
+- **Clear value proposition**: Quality + Speed + Cultural Pride
+
+## 📊 Performance Optimizations
+
+- ⚡ **Next.js Image optimization** for faster loading
+- 🎯 **Code splitting** with App Router
+- 📱 **Mobile-first CSS** for better mobile performance
+- 🔄 **Component reusability** for smaller bundle size
+- 💾 **Efficient state management** with minimal re-renders
+
+## 🌍 Deployment
+
+### Vercel (Recommended)
+1. **Connect your repository** to Vercel
+2. **Configure environment variables** in Vercel dashboard
+
+### Other Platforms
+- Compatible with **Netlify**, **Railway**, **AWS**, etc.
+- Requires Node.js 18+ environment
+- Build command: `npm run build`
+- Output directory: `.next`
+
+## 🤝 Contributing
+
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Commit your changes**: `git commit -m 'Add amazing feature'`
+4. **Push to the branch**: `git push origin feature/amazing-feature`
+5. **Open a Pull Request**
+
+### Development Guidelines
+- **Follow TypeScript** best practices
+- **Use Tailwind classes** for styling
+- **Keep components small** and focused
+- **Write descriptive commit messages**
+- **Test on mobile devices**
+
+## 📄 License
+
+This project is licensed under the MIT License
+
+## 📞 Support
+
+- **Email**: support@bantubaby.com
+- **WhatsApp**: +254 xxx xxx xxx
+- **Website**: [https://bantubaby.com](https://bantubaby.com)
+
+---
+
+**Built with ❤️ for African heritage and pride**
+
+*Bantu Baby - Where Heritage Meets Style* 👑
