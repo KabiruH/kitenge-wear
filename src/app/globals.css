@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
+@tailwind utilities;
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #CC5500;
+  --secondary: #000000;
+  --accent: #FF7A00;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply bg-[#CC5500] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#FF7A00] transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200;
+  }
+  
+  .text-primary {
+    color: #CC5500;
+  }
+  
+  .text-secondary {
+    color: #000000;
+  }
+  
+  .bg-primary {
+    background-color: #CC5500;
+  }
+  
+  .bg-secondary {
+    background-color: #000000;
+  }
 }
