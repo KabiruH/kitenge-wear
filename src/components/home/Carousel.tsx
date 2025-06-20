@@ -40,8 +40,8 @@ const Carousel: React.FC = () => {
     <div 
       className="relative w-full overflow-hidden"
       style={{ 
-        height: '60vh',
-        minHeight: '400px'
+        height: '80vh',
+        minHeight: '350px'
       }}
     >
       {/* Background image with fallback */}
